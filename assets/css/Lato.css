@@ -2,5 +2,5 @@
     font-family: 'Lato';
     font-style: normal;
     font-weight: normal;
-    src: local('Lato'), url('font/Lato.woff2') format('woff2');
+    src: local('Lato Regular') ,local('Lato-Regular'), url('font/Lato.woff2') format('woff2');
 }

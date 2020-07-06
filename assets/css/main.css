@@ -1,89 +1,92 @@
-@import url('Lato.css');
-@import url('fontello.css');
+@import url("Lato.css");
+@import url("fontello.css");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html{
-    font-family: Lato, Arial, Helvetica, sans-serif;    
+html {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
-body{
-    min-width: 267px;
+body {
+  min-width: 267px;
 }
 
-header{
-    background-color: #014463;
-    min-width: 267px;
-    color: white;
-    position: fixed;
+header {
+  background-color: #014463;
+  min-width: 267px;
+  color: white;
+  position: sticky;
+  width: 100%;
+  padding: 0;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.logo-nav-container {
+  display: flex;
+  margin: auto;
+  padding: 1em;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1920px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+#menu a {
+  color: white;
+  text-decoration: none;
+}
+#menu ul {
+  list-style: none;
+}
+#menu ul li {
+  display: inline-block;
+}
+#menu ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.4s linear;
+}
+#menu ul li a:hover {
+  background-color: #006594;
+}
+
+footer {
+  background-color: #014463;
+  color: white;
+  padding: 2em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 866px) {
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+
+  #menu {
     width: 100%;
-    padding: 1em;
-    left: 0;
-    top: 0;
-}
-
-.logo-nav-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.menu-icon{
+  }
+  #menu ul {
     display: none;
-}
-
-#menu a{
-    color: white;
-    text-decoration: none;
-}
-#menu ul{
-    list-style: none;
-}
-#menu ul li{
-    display: inline-block;
-}
-#menu ul li a{
-    display: block;    
-    padding: 0.5rem 1rem;
-    transition: all 0.4s linear;
-    height: 100%;
-}
-#menu ul li a:hover{
-    background-color: #006594;
-}
-
-footer{
-    background-color: #014463;
-    color: white;
-    padding: 2em;
-    text-align: center;
-}
-
-@media only screen and (max-width: 866px){
-    .menu-icon{
-        display: block;
-        cursor: pointer;
-        padding: 0.5rem;
-    }
-
-    #menu {
-        width: 100%;
-    }
-    #menu ul{
-        display: none;
-    }
-    #menu ul.show{
-        display: block;
-    }
-    #menu ul li{
-        display: block;        
-    }
-    #menu ul li a{ 
-        padding: 0.5rem 0;
-    }
+  }
+  #menu ul.show {
+    display: block;
+  }
+  #menu ul li {
+    display: block;
+  }
+  #menu ul li a {
+    padding: 0.5rem 0;
+  }
 }
