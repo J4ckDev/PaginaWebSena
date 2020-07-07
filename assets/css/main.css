@@ -33,7 +33,7 @@ header {
 .logo-nav-container {
   display: flex;
   margin: auto;
-  padding: 1em;
+  padding: 0.5em;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;

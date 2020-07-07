@@ -6,3 +6,7 @@ function showMenu() {
         x.className = ""
     }
 }
+function hideMenu() {
+    let x = document.getElementById("enlaces")
+    x.className = ""
+}
