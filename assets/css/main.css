@@ -8,11 +8,14 @@
 }
 
 html {
-  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
 }
 
 body {
-  min-width: 267px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 267px;
 }
 
 header {
@@ -34,7 +37,7 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 1920px;
+  max-width: 1000px;
 }
 
 .menu-icon {
@@ -60,14 +63,42 @@ header {
   background-color: #006594;
 }
 
+#servicios-content,
+#portafolio-content,
+#contacto-content {
+  display: flex;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  min-width: 267px;
+  max-width: 1000px;
+}
+
+h2 {
+  padding: 0.5em;
+  width: 100%;
+  background-color: #014463;
+  color: white;
+  text-align: center;
+}
+
 footer {
   background-color: #014463;
   color: white;
   padding: 2em;
   text-align: center;
+  width: 100%;
+}
+footer a{
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
 }
 
-@media only screen and (max-width: 866px) {
+@media only screen and (max-width: 875px) {
   .menu-icon {
     display: block;
     cursor: pointer;
@@ -88,5 +119,18 @@ footer {
   }
   #menu ul li a {
     padding: 0.5rem 0;
+  }
+
+  h2{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 506px){
+  h2{
+    font-size: 16px;
+  }
+  footer{
+    font-size: 12px;
   }
 }

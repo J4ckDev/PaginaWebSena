@@ -1,0 +1,66 @@
+#acerca-de-mi-content{
+    display: flex;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 267px;
+    max-width: 1000px;
+}
+
+#acerca-de-mi-content article{
+    padding: 0.5em;
+    width: 33%;
+}
+#acerca-de-mi-content h3{
+    color: rgb(230, 128, 48);
+    padding: 0.5em;
+}
+
+#Perfil p{    
+    text-align: justify;
+    padding: 0.5em 1em;
+}
+
+#Perfil img, #Cursos img, #Exp img{
+    width: 40%;
+    padding: 0.5em;
+}
+
+#Cursos ul{
+    padding: 0.5em 1em;
+    text-align: justify;
+}
+
+#Exp ol{
+    padding: 0.5em 1em;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 875px){
+    #acerca-de-mi-content p, #acerca-de-mi-content ul, #acerca-de-mi-content ol{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    #acerca-de-mi-content p, #acerca-de-mi-content ul, #acerca-de-mi-content ol{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    #acerca-de-mi-content article{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 506px){
+    #acerca-de-mi-content article{
+        width: 100%;
+    }
+    #acerca-de-mi-content h3{
+        font-size: 14px;
+    }
+}
