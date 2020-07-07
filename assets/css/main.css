@@ -63,6 +63,7 @@ header {
   background-color: #006594;
 }
 
+#acerca-de-mi-content,
 #servicios-content,
 #portafolio-content,
 #contacto-content {
@@ -70,7 +71,6 @@ header {
   padding: 0;
   text-align: center;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   width: 100%;
   min-width: 267px;
