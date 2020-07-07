@@ -119,7 +119,33 @@
     </section>
     <h2 id="contacto">CONTACTO</h2>
     <section id="contacto-content">
-        
+        <p>
+            Sí deseas conocer más detalles sobre mis servicios, te invito a que rellenes el siguiente
+            formulario de contacto para solicitar más información.
+        </p>
+        <form action="" onsubmit="return validacion()" method="">
+            <div id="gName">
+                <label for="Nombre">Nombre</label>
+                <input type="text" name="Name" id="Nombre" placeholder="John Doe" required>
+            </div>
+            <div id="gService">
+                <label for="Servicio">Servicio de interés</label>
+                <select name="Service" id="Servicio" required>
+                    <option value="Mobile">Desarrollo Móvil</option>
+                    <option value="Marketing">Marketing Digital</option>
+                    <option value="Desktop">Desarrollo de Escritorio</option>
+                </select>
+            </div>
+            <div id="gEmail">
+                <label for="Correo">Correo Electrónico</label>
+                <input type="email" name="email" id="Correo" placeholder="email@email.com" required>
+            </div>
+            <div id="gMessage">
+                <label for="Mensaje">Mensaje</label>
+                <textarea name="Message" id="Mensaje" required></textarea>
+            </div>     
+            <button id="Send" type="submit">Enviar<i class="icon-direction-outline"></i></button>
+        </form>
     </section>
     <footer>
        <p>
