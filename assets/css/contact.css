@@ -20,6 +20,7 @@ form div label{
 #Nombre, #Servicio, #Correo, #Mensaje{
     padding: 0.5em;
     width: 50%;
+    outline-color: rgb(197, 94, 14);
 }
 #Mensaje{
     height: 5em;

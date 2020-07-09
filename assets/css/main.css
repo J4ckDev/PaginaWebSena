@@ -44,7 +44,7 @@ header {
   display: none;
 }
 
-#menu a {
+#menu a {  
   color: white;
   text-decoration: none;
 }
@@ -108,11 +108,11 @@ footer a{
   #menu {
     width: 100%;
   }
-  #menu ul {
+  #enlaces {
     display: none;
   }
-  #menu ul.show {
-    display: block;
+  #enlaces.show {
+    display: block;       
   }
   #menu ul li {
     display: block;

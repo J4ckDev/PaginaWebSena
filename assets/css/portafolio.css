@@ -1,0 +1,33 @@
+#portafolio-content article{
+    padding: 0.5em;
+    width: 33%;
+}
+#portafolio-content h3{
+    color: rgb(197, 94, 14);
+    padding: 0.5em;
+}
+#portafolio-content img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    padding: 0.5em;
+}
+
+@media only screen and (max-width: 875px){
+    #Revista img, #Patacore img, #Barberia img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    #portafolio-content article{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    #portafolio-content article{
+        width: 100%;
+    }
+}
