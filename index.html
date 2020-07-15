@@ -16,7 +16,7 @@
     <header>          
         <div class="logo-nav-container">
             <div class="logo">
-                <a href="#banner"><img src="assets/img/logo.png" alt="Logo"></a>
+                <a href="#banner"><img src="assets/img/logo.png" alt="Logo del sitio" longdesc="content/logo.html"></a>
             </div>  
             <span class="icon-menu-outline menu-icon" onclick="showMenu()"></span>
             <nav id="menu">          
@@ -34,7 +34,7 @@
         <article id="banner-content">            
             <em>Hola, soy</em>
             <h1>Jonathan Aldana</h1>
-            <h3>Técnico en desarrollo de software</h3>
+            <h2>Técnico en desarrollo de software</h2>
             <p>Y te invito a explorar mi Web para que conozcas más acerca de mí y sobre mi trabajo</p>
         </article>
     </section>
@@ -146,7 +146,7 @@
             formulario de contacto para solicitar más información. 
             <strong>Todos los campos deben ser rellenados</strong>
         </p>
-        <form action="" onsubmit="return validacion()" method="">
+        <form onsubmit="return validacion()" method="POST">
             <div id="gName">
                 <label for="Nombre">Nombre</label>
                 <input type="text" name="Name" id="Nombre" placeholder="John Doe" title="Su Nombre" required>
@@ -165,7 +165,7 @@
             </div>
             <div id="gMessage">
                 <label for="Mensaje">Mensaje</label>
-                <textarea name="Message" id="Mensaje" title="Su Mensaje" required></textarea>
+                <textarea name="Message" id="Mensaje" title="Su Mensaje o Inquietud" required></textarea>
             </div>     
             <button id="Send" type="submit">Enviar<i class="icon-direction-outline"></i></button>
         </form>
