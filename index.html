@@ -16,7 +16,7 @@
     <header>          
         <div class="logo-nav-container">
             <div class="logo">
-                <a href="#banner"><img src="assets/img/logo.png" alt="Logo del sitio" longdesc="content/logo.html"></a>
+                <a href="#banner"><img src="assets/img/logo.png" alt="Logo del sitio"></a>
             </div>  
             <span class="icon-menu-outline menu-icon" onclick="showMenu()"></span>
             <nav id="menu">          
@@ -30,20 +30,20 @@
             </nav>
         </div>  
     </header>
-    <section id="banner">
-        <article id="banner-content">            
+    <div id="banner">
+        <div id="banner-content">            
             <em>Hola, soy</em>
             <h1>Jonathan Aldana</h1>
             <h2>Técnico en desarrollo de software</h2>
             <p>Y te invito a explorar mi Web para que conozcas más acerca de mí y sobre mi trabajo</p>
-        </article>
-    </section>
-    <h2 id="acerca-de-mi">ACERCA DE MÍ</h2>
-    <section id="acerca-de-mi-content">        
+        </div>
+    </div>    
+    <section id="acerca-de-mi-content">  
+        <h2 id="acerca-de-mi">ACERCA DE MÍ</h2>      
         <article id="Perfil">
             <h3>¿Quién Soy?</h3>
-            <a href="https://www.flaticon.com/free-icon/profile_3135768" target="_blank" rel="noopener noreferrer">
-                <img src="assets/svg/Profile.svg" alt="Icono del perfil" longdesc="content/about/Profile.html">
+            <a href="content/about/Profile.html" target="_blank" rel="noopener noreferrer">
+                <img src="assets/svg/Profile.svg" alt="Icono del perfil">
             </a>            
             <p>Soy una persona que se caracteriza por ser responsable, honesta, amable, respetuosa, proactiva, 
                 autodidacta y dinámica tanto en el trabajo individual como en equipo, me adapto muy bien a las 
@@ -52,8 +52,8 @@
         </article>
         <article id="Cursos">
             <h3>Estudios Realizados</h3>
-            <a href="https://www.flaticon.com/free-icon/books_926321" target="_blank" rel="noopener noreferrer">
-                <img src="assets/svg/Studies.svg" alt="Icono de estudios" longdesc="content/about/Estudios.html">
+            <a href="content/about/Estudios.html" target="_blank" rel="noopener noreferrer">
+                <img src="assets/svg/Studies.svg" alt="Icono de estudios">
             </a>              
             <ul>
                 <li>Grado de bachiller especializado en desarrollo de Software.</li>
@@ -66,8 +66,8 @@
         </article>
         <article id="Exp">
             <h3>Experiencia Laboral</h3>
-            <a href="https://www.flaticon.com/free-icon/curriculum-vitae_3050500" target="_blank" rel="noopener noreferrer">
-                <img src="assets/svg/Exp.svg" alt="Icono de experiencia laboral" longdesc="content/about/Exp.html">
+            <a href="content/about/Exp.html" target="_blank" rel="noopener noreferrer">
+                <img src="assets/svg/Exp.svg" alt="Icono de experiencia laboral">
             </a>  
             <ol>
                 <li>
@@ -82,13 +82,13 @@
                 </li>
             </ol>
         </article>
-    </section>
-    <h2 id="servicios">SERVICIOS</h2>
-    <section id="servicios-content">        
+    </section>    
+    <section id="servicios-content">    
+        <h2 id="servicios">SERVICIOS</h2>    
         <article id="Movil">
             <h3>Apps Móviles</h3>
-            <a href="https://www.flaticon.com/free-icon/cloud_2419224" target="_blank" rel="noopener noreferrer">
-                <img src="assets/svg/MobApps.svg" alt="Imagen de desarrollo de aplicaciones móviles" longdesc="content/services/Movil.html">
+            <a href="content/services/Movil.html" target="_blank" rel="noopener noreferrer">
+                <img src="assets/svg/MobApps.svg" alt="Imagen de desarrollo de aplicaciones móviles">
             </a>
             <p>
                 Diseño y desarrollo de aplicaciones a medida con los más altos estándares en interfaz 
@@ -98,8 +98,8 @@
         </article>
         <article id="Marketing">
             <h3>Marketing Digital</h3>
-            <a href="https://www.flaticon.com/free-icon/statistics_2920326" target="_blank" rel="noopener noreferrer">
-                <img src="assets/svg/Marketing.svg" alt="Imagen de Marketing Digital" longdesc="content/services/Marketing.html">
+            <a href="content/services/Marketing.html" target="_blank" rel="noopener noreferrer">
+                <img src="assets/svg/Marketing.svg" alt="Imagen de Marketing Digital">
             </a>
             <p>
                 Trabajo contigo para diseñar el plan estratégico de marketing digital que 
@@ -110,8 +110,8 @@
         </article>
         <article id="Desktop">
             <h3>Apps de Escritorio</h3>
-            <a href="https://www.flaticon.com/free-icon/seo_888954" target="_blank" rel="noopener noreferrer">
-                <img src="assets/svg/Desktop.svg" alt="Imagen de desarrollo de aplicaciones de escritorio" longdesc="content/services/Desktop.html">
+            <a href="content/services/Desktop.html" target="_blank" rel="noopener noreferrer">
+                <img src="assets/svg/Desktop.svg" alt="Imagen de desarrollo de aplicaciones de escritorio">
             </a>
             <p>
                 Diseño y desarrollo de aplicaciones de escritorio para Windows mediante los lenguajes de
@@ -120,27 +120,39 @@
                 según la complejidad y el tiempo estimado de desarrollo.  
             </p>
         </article>
-    </section>
-    <h2 id="portafolio">PORTAFOLIO</h2>
+    </section>    
     <section id="portafolio-content">
+        <h2 id="portafolio">PORTAFOLIO</h2>
         <article id="Revista">
             <h3>Contenido para la RFCS</h3>
-            <img src="assets/img/RevInf.jpg" alt="infografía diseñada para la RFCS" longdesc="content/briefcase/revInf.html">
-            <img src="assets/img/RevPost.jpg" alt="Post diseñado para la RFCS" longdesc="content/briefcase/revPost.html">
+            <a href="content/briefcase/revInf.html" target="_blank" rel="noopener noreferrer">
+                <img src="assets/img/RevInf.jpg" alt="infografía diseñada para la RFCS">
+            </a>
+            <a href="content/briefcase/revPost.html" target="_blank" rel="noopener noreferrer">
+                <img src="assets/img/RevPost.jpg" alt="Post diseñado para la RFCS">
+            </a>
         </article>
         <article id="Patacore">
             <h3>Aplicación de Patacoré</h3>
-            <img src="assets/img/AndroidApp.jpg" alt="Aplicación para Android del restaurante Patacoré" longdesc="content/briefcase/androidApp.html">
-            <img src="assets/img/iOSApp.jpg" alt="Aplicación para iOS del restaurante Patacoré" longdesc="content/briefcase/iosApp.html">
+            <a href="content/briefcase/androidApp.html" target="_blank" rel="noopener noreferrer">
+                <img src="assets/img/AndroidApp.jpg" alt="Aplicación para Android del restaurante Patacoré">
+            </a>
+            <a href="content/briefcase/iosApp.html" target="_blank" rel="noopener noreferrer">
+                <img src="assets/img/iOSApp.jpg" alt="Aplicación para iOS del restaurante Patacoré">
+            </a>
         </article>
         <article id="Barberia">
             <h3>Aplicación de la Barbería</h3>
-            <a href="https://www.freepik.es/vector-gratis/aplicacion-reserva-peluqueria_8400665.htm" target="_blank" rel="noopener noreferrer"><img src="assets/img/fBarberia.jpg" alt="Primer diseño para la aplicación en iOS de la barbería" longdesc="content/briefcase/fBarberia.html"></a>
-            <a href="https://www.freepik.es/vector-gratis/aplicacion-reserva-peluqueria_8926042.htm" target="_blank" rel="noopener noreferrer"><img src="assets/img/sBarberia.jpg" alt="Segundo diseño para la aplicación en iOS de la barbería" longdesc="content/briefcase/sBarberia.html"></a>
+            <a href="content/briefcase/fBarberia.html" target="_blank" rel="noopener noreferrer">
+                <img src="assets/img/fBarberia.jpg" alt="Primer diseño para la aplicación en iOS de la barbería">
+            </a>
+            <a href="content/briefcase/sBarberia.html" target="_blank" rel="noopener noreferrer">
+                <img src="assets/img/sBarberia.jpg" alt="Segundo diseño para la aplicación en iOS de la barbería">
+            </a>
         </article>
-    </section>
-    <h2 id="contacto">CONTACTO</h2>
+    </section>    
     <section id="contacto-content">
+        <h2 id="contacto">CONTACTO</h2>
         <p>
             Sí deseas conocer más detalles sobre mis servicios, te invito a que rellenes el siguiente
             formulario de contacto para solicitar más información. 
@@ -153,7 +165,8 @@
             </div>
             <div id="gService">
                 <label for="Servicio">Servicio de interés</label>
-                <select name="Service" id="Servicio" title="Servicio de interés" required>
+                <select name="Service" id="Servicio" title="Servicio de interés" required>    
+                    <option value="" disabled selected>Seleccione una opción</option>                
                     <option value="Mobile">Desarrollo Móvil</option>
                     <option value="Marketing">Marketing Digital</option>
                     <option value="Desktop">Desarrollo de Escritorio</option>
